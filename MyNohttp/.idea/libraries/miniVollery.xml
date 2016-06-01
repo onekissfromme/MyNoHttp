@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="miniVollery">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/miniVollery.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

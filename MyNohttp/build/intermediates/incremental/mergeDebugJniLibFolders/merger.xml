@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/xfeng/WorkSpace/Demo/LekeVolleyDemo/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/xfeng/WorkSpace/Demo/LekeVolleyDemo/build-types/debug/jniLibs"/></dataSet></merger>
