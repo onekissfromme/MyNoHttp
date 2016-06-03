@@ -7,6 +7,7 @@ import com.yolanda.nohttp.Request;
 import com.yolanda.nohttp.RequestQueue;
 import com.yolanda.nohttp.download.DownloadQueue;
 
+
 /**
  * Created by xuyuqiang on 16/5/30.
  */

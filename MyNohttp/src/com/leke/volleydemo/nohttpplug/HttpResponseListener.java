@@ -22,6 +22,7 @@ import com.yolanda.nohttp.OnResponseListener;
 import com.yolanda.nohttp.Request;
 import com.yolanda.nohttp.Response;
 
+
 /**
  * Created by xuyuqiang on 16/5/30.
  */

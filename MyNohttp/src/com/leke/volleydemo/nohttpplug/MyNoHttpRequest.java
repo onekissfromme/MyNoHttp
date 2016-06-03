@@ -1,6 +1,5 @@
 package com.leke.volleydemo.nohttpplug;
 
-import com.yolanda.nohttp.Request;
 import com.yolanda.nohttp.RequestMethod;
 import com.yolanda.nohttp.StringRequest;
 
@@ -17,6 +16,11 @@ public class MyNoHttpRequest extends StringRequest {
         super(url, requestMethod);
     }
 
+    /**
+     *
+     * User: xuyuqiang
+     * Data: 16/6/3 14:15
+     */
     @Override
     public String getAccept() {
         return "";

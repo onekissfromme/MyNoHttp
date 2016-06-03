@@ -15,6 +15,7 @@
  */
 package com.leke.volleydemo.nohttpplug;
 
+
 import com.yolanda.nohttp.Response;
 
 /**
@@ -25,6 +26,7 @@ import com.yolanda.nohttp.Response;
  *
  */
 public abstract interface HttpListener<T> {
+
 
     public abstract void onSucceed(int what, Response<T> response);
 

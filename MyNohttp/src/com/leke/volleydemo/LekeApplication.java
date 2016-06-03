@@ -2,9 +2,8 @@ package com.leke.volleydemo;
 
 import android.app.Application;
 
-import com.leke.minivolley.RequestQueue;
-import com.leke.minivolley.toolbox.Volley;
 import com.yolanda.nohttp.NoHttp;
+
 
 /**
  * ProjectName: LekeVolleyDemo
@@ -18,9 +17,16 @@ import com.yolanda.nohttp.NoHttp;
  */
 public class LekeApplication extends Application {
 
+    private static LekeApplication instances ;
+
     @Override
     public void onCreate() {
         super.onCreate();
+        instances = this ;
         NoHttp.init(this);
+    }
+
+    public static LekeApplication getInstances(){
+        return instances ;
     }
 }
